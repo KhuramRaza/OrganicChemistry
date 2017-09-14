@@ -25,26 +25,20 @@ body{
       background: none;
       color: #fff;
       text-align: center;
+
+  }
+  @font-face {
+    font-family: '3dumb';
+    src: url("assets/fonts/3Dumb-webfont.woff");
   }
 
-  .jumbotron .header-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image:url("assets/img/chemistry.jpg");
-    background-position: 0% 25%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 0;
-    border-radius: 0;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  z-index: -1;
+  body{
+    background-image: url("assets/img/chemistry.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+  h1{
+    font-family: 3dumb !important;
   }
 </style>
 </head>
@@ -52,7 +46,7 @@ body{
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Organic Chemistry</a>
+          <a class="navbar-brand" href="index.html">Organic Chemistry</a>
         </div>
         <ul class="nav navbar-nav">
           <li><a href="Phenols.html">Phenols</a></li>
@@ -64,7 +58,7 @@ body{
     </nav>
             <div class="jumbotron" style="margin-top:50px">
               <div class="header-bg"></div>
-              <h1>Phenols</h1>
+              <h1 >Phenols</h1>
             </div>
     <div class="container main-content">
       <h3 id="definition">Definition</h3>
@@ -233,7 +227,7 @@ hydroxide, a –CHO group is introduced at ortho position of benzene
 ring. This reaction is known as Reimer - Tiemann reaction.
 The intermediate substituted benzal chloride is hydrolysed in the
 presence of alkali to produce salicylaldehyde.<br><br>
-<img src="assets/img/reimer.PNG"><br><br>
+<img src="assets/img/reimer.PNG" style="width:95%"><br><br>
 
 
 <h4><b>4. Reaction of phenol with zinc dust</b></h4>
